@@ -1,0 +1,7 @@
+{% for i in loans %}
+    {{i.user}}-- {{i.Amount}} -- {{i.loan_passed}}------{{i.loan_denied}}--
+    <br>
+{% endfor %}
+{% for j in req %}
+    {{j.Approved}}---- {{j.declined}}
+{% endfor %}
